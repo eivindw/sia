@@ -10,6 +10,6 @@ class ImageSuite extends FunSuite {
          Array(1, 0, 1)))
       assert(img != null)
 
-      println(img.extractHuMoments)
+      //println(img.extractHuMoments)
    }
 }

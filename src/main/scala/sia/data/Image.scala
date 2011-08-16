@@ -26,12 +26,12 @@ class Image(data: Array[Array[Int]]) {
       val m10 = extractRawMoment(1, 0)
       val m01 = extractRawMoment(0, 1)
 
-      println("m00: " + m00 + " m10: " + m10 + " m01: " + m01)
+      //println("m00: " + m00 + " m10: " + m10 + " m01: " + m01)
 
       val xMean = m10 / m00
       val yMean = m01 / m00
 
-      println("xMean: " + xMean + " yMean: " + yMean)
+      //println("xMean: " + xMean + " yMean: " + yMean)
 
       val cm = extractCentralMoment(_: Int, _: Int, xMean, yMean, m00)
 
